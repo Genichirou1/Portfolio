@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&amp;display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="animated-background"></div>
+    <button id="scrollToTop" class="scroll-to-top">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="11" viewBox="0 0 20 11" id="arrow">
+            <g id="Page-1" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
+              <g id="Dribbble-Light-Preview" fill="#000" transform="translate(-260 -6684)">
+                <g id="icons" transform="translate(56 160)">
+                  <path id="arrow_up-[#337]" d="M223.708 6534.634c.39-.405.39-1.06 0-1.464l-8.264-8.563a1.95 1.95 0 0 0-2.827 0l-8.325 8.625c-.385.4-.39 1.048-.01 1.454a.976.976 0 0 0 1.425.01l7.617-7.893a.975.975 0 0 1 1.414 0l7.557 7.83a.974.974 0 0 0 1.413 0"></path>
+                </g>
+              </g>
+            </g>
+          </svg>
+    </button>
+    
+    <div class="wrapper">
+        <!-- Seção 1 -->
+        <div class="text-section">
+            <div class="myname">
+                <p>Hi, it's Genichirou</p>
+                <h1><span class="dynamic-text">.NET Developer</span></h1>
+            </div>
+            <div class="social-icons">
+                <a href="https://github.com/Genichirou1" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="white">
+                        <path d="M12 0C5.37 0 0 5.37 0 12c0 5.29 3.438 9.8 8.207 11.398.6.111.793-.261.793-.582 0-.286-.01-1.045-.015-2.054-3.338.725-4.04-1.611-4.04-1.611-.546-1.39-1.333-1.76-1.333-1.76-1.09-.745.084-.73.084-.73 1.204.085 1.833 1.241 1.833 1.241 1.07 1.823 2.809 1.296 3.492.992.107-.774.42-1.296.763-1.595-2.665-.302-5.465-1.333-5.465-5.932 0-1.309.468-2.382 1.237-3.22-.124-.303-.536-.913-.116-1.887 0 0 1.008-.319 3.304 1.221.96-.266 1.99-.398 3.016-.398s2.056.132 3.016.398c2.296-1.54 3.304-1.221 3.304-1.221.42.974.008 1.584-.116 1.887.77.838 1.237 1.911 1.237 3.22 0 4.616-2.804 5.628-5.472 5.923.429.377.818 1.117.818 2.26 0 1.632-.015 2.947-.015 3.342 0 .323.194.698.8.582 4.769-1.598 8.207-6.069 8.207-11.398C24 5.37 18.63 0 12 0z"/>
+                    </svg>
+                </a>
+                <!-- <a href="https://www.linkedin.com/in/" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"fill="white">
+                        <path d="M3.15 0C1.41 0 0 1.41 0 3.15v17.7c0 1.74 1.41 3.15 3.15 3.15h17.7c1.74 0 3.15-1.41 3.15-3.15V3.15c0-1.74-1.41-3.15-3.15-3.15H3.15zM7.5 19.13H4.5V9.98h3V19.13zm-1.5-11.75c-.95 0-1.75-.8-1.75-1.75s.8-1.75 1.75-1.75 1.75.8 1.75 1.75-.8 1.75-1.75 1.75zM19.12 19.13h-3V14.3c0-1.31-.47-2.21-1.64-2.21-1.79 0-2.52 1.23-2.52 2.5v4.54h-3v-9.15h3v1.25c.65-.98 1.79-1.75 3.12-1.75 2.29 0 4.11 1.47 4.11 4.64v5.01h.01z"/>
+                    </svg>
+                </a> -->
+                <a href="https://t.me/vovaputinoficial" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="white">
+                        <path d="m20.665 3.717-17.73 6.837c-1.21.486-1.203 1.161-.222 1.462l4.552 1.42 10.532-6.645c.498-.303.953-.14.579.192l-8.533 7.701h-.002l.002.001-.314 4.692c.46 0 .663-.211.921-.46l2.211-2.15 4.599 3.397c.848.467 1.457.227 1.668-.785l3.019-14.228c.309-1.239-.473-1.8-1.282-1.434z"/></svg>
+                </a>
+            </div>
+        </div>
+        
+    </div>
+
+<section class="projects-section">
+    <h1>Projects</h1>
+    <div class="projects-container">
+
+        <!-- Registiq -->
+        <div class="project-card">
+            <img src="assets/registiq.png" alt="Registiq" class="project-image">
+            <div class="project-content">
+                <p>.NET – WPF – Entity Framework Core – SQLite</p>
+                <h1>Registiq</h1>
+                <p>A desktop application for managing equipment, consumables, and written-off inventory. 
+                   Features a modern WinUI-inspired interface, multilingual support, report generation with Excel export, 
+                   and automated database backup & restore.</p>
+            </div>
+            <div class="button-container">
+                <a href="https://github.com/Genichirou1/Registiq" target="_blank" class="btn">GitHub</a>
+            </div>
+        </div>
+
+        <!-- UniLoad -->
+        <div class="project-card">
+            <img src="assets/uniload.png" alt="UniLoad" class="project-image">
+            <div class="project-content">
+                <p>.NET – WPF – Modern UI</p>
+                <h1>UniLoad</h1>
+                <p>A desktop application for downloading and managing videos and playlists.  
+                   Includes a clean modern interface, preview with thumbnails and titles, playlist selection, 
+                   support for subtitles, audio tracks, metadata (description & JSON), and flexible download settings.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <section class="skills">
+          <h1>Skills</h1>
+  <div class="cards-container">
+
+    <!-- .NET -->
+    <div class="skill-card">
+      <h3>.NET</h3>
+      <p>Strong experience with .NET ecosystem, building scalable and efficient applications with C#.</p>
+    </div>
+
+    <!-- C# -->
+    <div class="skill-card">
+      <h3>C#</h3>
+      <p>Proficient in object-oriented programming and building backend systems with C#.</p>
+    </div>
+
+    <!-- SQL -->
+    <div class="skill-card">
+      <h3>SQL</h3>
+      <p>Experience in designing databases, writing queries, and optimizing performance.</p>
+    </div>
+    </section>
+
+
+
+      <footer class="contact-container">
+        <h2>Let’s work together.</h2>
+        <div class="contact-links">
+            <a href="https://t.me/vovaputinoficial" class="contact-item">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="white">
+                        <path d="m20.665 3.717-17.73 6.837c-1.21.486-1.203 1.161-.222 1.462l4.552 1.42 10.532-6.645c.498-.303.953-.14.579.192l-8.533 7.701h-.002l.002.001-.314 4.692c.46 0 .663-.211.921-.46l2.211-2.15 4.599 3.397c.848.467 1.457.227 1.668-.785l3.019-14.228c.309-1.239-.473-1.8-1.282-1.434z"/></svg>
+                Telegram
+            </a>
+            <a href="mailto:fafaieefafaiee@gmail.com" class="contact-item">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill="#FFF" d="M22 4H2C.9 4 0 4.9 0 6v12c0 1.1.9 2 2 2h20c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2Zm-1 3.3V18H3V7.3l8.88 5.9c.08.05.17.08.26.08s.18-.03.26-.08L21 7.3ZM3.5 6h17l-8.5 5.64L3.5 6Z"/>
+                </svg>
+                E-mail
+            </a>
+        </div>
+    </footer>
+    
+     
+    <script src="lenis.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    if (window.innerWidth > 768) { 
+        const lenis = new Lenis({
+            duration: 1.1,
+            smooth: true, 
+        });
+
+        function raf(time) {
+            lenis.raf(time);
+            requestAnimationFrame(raf);
+        }
+
+        requestAnimationFrame(raf);
+    }
+});
+</script>
+    <script src="script.js"></script>
+</body>
+</html>
